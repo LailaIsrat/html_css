@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    /* margin-top: 0; */
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    /* padding-left: 24px; */
+
+}
+
+/* Header and navigation style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    /*horixontally lined up nav items (nav title,ul)*/
+    margin: 50px 200px;
+}
+
+/* Mary decoration */
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    /* button */
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    /*blak border remove*/
+
+    /* button text */
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 18px 35px;
+}
+
+/* nav items decoration */
+nav ul {
+    display: flex;
+    align-items: center;
+    /*for verically lined up li items*/
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+
+}
+
+/* ------------------------------------------------------- */
+/* Banner design */
+.banner {
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+
+}
+
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.btn-cantact {
+    margin-left: 30px;
+    color: #FD6E0A;
+}
+
+/*----------------------------------------------------*/
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* -------------About Me---------- */
+.about {
+    margin-top: 130px;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: #181818;
+
+}
+
+.section-description {
+    font-size: 18px;
+    text-align: center;
+    color: #757575;
+    padding: 30px 0;
+}
